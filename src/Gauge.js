@@ -1,4 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types'
+
 
 import { describeArc, polarToCartesian, lerp } from './util.js'
 
@@ -12,15 +14,15 @@ const labelRadius = lineRadius + 20;
 const minMaxLabelRadius = lineRadius + 10;
 const minLabelPosition = polarToCartesian(centerX, centerY, minMaxLabelRadius, -90);
 const maxLabelPosition = polarToCartesian(centerX, centerY, minMaxLabelRadius, 90);
+const arcPath = describeArc({ x: centerX, y: centerY + 1, radius: arcRadius, startAngle: 270, endAngle: 90 });
 
 export default function Gauge({ min, max, value, format }) {
   const clampedValue = Math.min(Math.max(value, min), max)
   const t = (clampedValue - min) / (max - min);
   const endLine = polarToCartesian(centerX, centerY, lineRadius, lerp(t, -90, 90))
-  const endText = polarToCartesian(centerX, centerY, labelRadius, lerp(t, -90, 90))
 
   return <svg style={{ width, height }} viewBox={`0 0 ${width} ${height}`}>
-    <path {...Gauge.attributes.arc} d={describeArc({ x: centerX, y: centerY + 1, radius: arcRadius, startAngle: 270, endAngle: 90 })} />
+    <path {...Gauge.attributes.arc} d={arcPath} />
     <line x1={centerX} y1={centerY} x2={endLine.x} y2={endLine.y} stroke="black" />
     <text {...Gauge.attributes.textLabel} {...polarToCartesian(centerX, centerY, labelRadius, lerp(t, -90, 90))}>{format(value)}</text>
     <text {...Gauge.attributes.textLabel} {...minLabelPosition}>{format(min)}</text>
@@ -40,4 +42,10 @@ Gauge.attributes = {
   }
 }
 
+Gauge.propTypes = {
+  min: PropTypes.number.isRequired, 
+  max: PropTypes.number.isRequired, 
+  value: PropTypes.number.isRequired, 
+  format: PropTypes.func.isRequired // Takes a number as input and returns a display string
+}
 
