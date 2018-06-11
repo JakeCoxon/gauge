@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './App.css';
 
 
 import AnimatedGauge from './AnimatedGauge.js'
@@ -14,15 +13,13 @@ const formats = {
 }
 
 const dataFetcher = () => new Promise((resolve) => {
-  setTimeout(() => {
-    resolve({
-      "value": Math.random() * 200,
-      "min": 0,
-      "max": 200,
-      "format": "currency",
-      "unit": "GBP"
-    })
-  }, 300)
+  setTimeout(() => resolve({
+    "value": Math.random() * 200,
+    "min": 0,
+    "max": 200,
+    "format": "currency",
+    "unit": "GBP"
+  }), 300)
 })
 
 
@@ -34,7 +31,7 @@ class App extends Component {
   render() {
 
     return (
-      <div className="App" style={{marginTop: 100}}>
+      <div style={{textAlign:'center', marginTop: 100}}>
         <PromiseLoader function={dataFetcher} input={this.state.fetchIncrement}>{(result, { isLoading }) => 
           <div>
 
