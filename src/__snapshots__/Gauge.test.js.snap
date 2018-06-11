@@ -1,0 +1,326 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders props 1`] = `
+<svg
+  style={
+    Object {
+      "height": 300,
+      "width": 500,
+    }
+  }
+  viewBox="0 0 500 300"
+>
+  <path
+    d="M 380 201 A 130 130 0 0 0 120 201.00000000000003 "
+    fill="rgba(0,0,0,0.35)"
+    stroke="rgba(0,0,0,0.8)"
+    strokeWidth="4"
+  />
+  <line
+    stroke="black"
+    x1={250}
+    x2={100}
+    y1={200}
+    y2={199.99999999999997}
+  />
+  <text
+    fill="rgba(0,0,0,0.7)"
+    style={
+      Object {
+        "fontFamily": "Roboto, sans-serif",
+      }
+    }
+    textAnchor="middle"
+    x={80}
+    y={199.99999999999997}
+  >
+    0
+  </text>
+  <text
+    fill="rgba(0,0,0,0.7)"
+    style={
+      Object {
+        "fontFamily": "Roboto, sans-serif",
+      }
+    }
+    textAnchor="middle"
+    x={90}
+    y={199.99999999999997}
+  >
+    0
+  </text>
+  <text
+    fill="rgba(0,0,0,0.7)"
+    style={
+      Object {
+        "fontFamily": "Roboto, sans-serif",
+      }
+    }
+    textAnchor="middle"
+    x={410}
+    y={200}
+  >
+    100
+  </text>
+</svg>
+`;
+
+exports[`renders props 2`] = `
+<svg
+  style={
+    Object {
+      "height": 300,
+      "width": 500,
+    }
+  }
+  viewBox="0 0 500 300"
+>
+  <path
+    d="M 380 201 A 130 130 0 0 0 120 201.00000000000003 "
+    fill="rgba(0,0,0,0.35)"
+    stroke="rgba(0,0,0,0.8)"
+    strokeWidth="4"
+  />
+  <line
+    stroke="black"
+    x1={250}
+    x2={161.83221215612906}
+    y1={200}
+    y2={78.64745084375788}
+  />
+  <text
+    fill="rgba(0,0,0,0.7)"
+    style={
+      Object {
+        "fontFamily": "Roboto, sans-serif",
+      }
+    }
+    textAnchor="middle"
+    x={150.07650711027958}
+    y={62.46711095625892}
+  >
+    30
+  </text>
+  <text
+    fill="rgba(0,0,0,0.7)"
+    style={
+      Object {
+        "fontFamily": "Roboto, sans-serif",
+      }
+    }
+    textAnchor="middle"
+    x={90}
+    y={199.99999999999997}
+  >
+    0
+  </text>
+  <text
+    fill="rgba(0,0,0,0.7)"
+    style={
+      Object {
+        "fontFamily": "Roboto, sans-serif",
+      }
+    }
+    textAnchor="middle"
+    x={410}
+    y={200}
+  >
+    100
+  </text>
+</svg>
+`;
+
+exports[`renders props 3`] = `
+<svg
+  style={
+    Object {
+      "height": 300,
+      "width": 500,
+    }
+  }
+  viewBox="0 0 500 300"
+>
+  <path
+    d="M 380 201 A 130 130 0 0 0 120 201.00000000000003 "
+    fill="rgba(0,0,0,0.35)"
+    stroke="rgba(0,0,0,0.8)"
+    strokeWidth="4"
+  />
+  <line
+    stroke="black"
+    x1={250}
+    x2={100}
+    y1={200}
+    y2={199.99999999999997}
+  />
+  <text
+    fill="rgba(0,0,0,0.7)"
+    style={
+      Object {
+        "fontFamily": "Roboto, sans-serif",
+      }
+    }
+    textAnchor="middle"
+    x={80}
+    y={199.99999999999997}
+  >
+    30
+  </text>
+  <text
+    fill="rgba(0,0,0,0.7)"
+    style={
+      Object {
+        "fontFamily": "Roboto, sans-serif",
+      }
+    }
+    textAnchor="middle"
+    x={90}
+    y={199.99999999999997}
+  >
+    100
+  </text>
+  <text
+    fill="rgba(0,0,0,0.7)"
+    style={
+      Object {
+        "fontFamily": "Roboto, sans-serif",
+      }
+    }
+    textAnchor="middle"
+    x={410}
+    y={200}
+  >
+    200
+  </text>
+</svg>
+`;
+
+exports[`renders props 4`] = `
+<svg
+  style={
+    Object {
+      "height": 300,
+      "width": 500,
+    }
+  }
+  viewBox="0 0 500 300"
+>
+  <path
+    d="M 380 201 A 130 130 0 0 0 120 201.00000000000003 "
+    fill="rgba(0,0,0,0.35)"
+    stroke="rgba(0,0,0,0.8)"
+    strokeWidth="4"
+  />
+  <line
+    stroke="black"
+    x1={250}
+    x2={400}
+    y1={200}
+    y2={200}
+  />
+  <text
+    fill="rgba(0,0,0,0.7)"
+    style={
+      Object {
+        "fontFamily": "Roboto, sans-serif",
+      }
+    }
+    textAnchor="middle"
+    x={420}
+    y={200}
+  >
+    300
+  </text>
+  <text
+    fill="rgba(0,0,0,0.7)"
+    style={
+      Object {
+        "fontFamily": "Roboto, sans-serif",
+      }
+    }
+    textAnchor="middle"
+    x={90}
+    y={199.99999999999997}
+  >
+    0
+  </text>
+  <text
+    fill="rgba(0,0,0,0.7)"
+    style={
+      Object {
+        "fontFamily": "Roboto, sans-serif",
+      }
+    }
+    textAnchor="middle"
+    x={410}
+    y={200}
+  >
+    200
+  </text>
+</svg>
+`;
+
+exports[`renders props 5`] = `
+<svg
+  style={
+    Object {
+      "height": 300,
+      "width": 500,
+    }
+  }
+  viewBox="0 0 500 300"
+>
+  <path
+    d="M 380 201 A 130 130 0 0 0 120 201.00000000000003 "
+    fill="rgba(0,0,0,0.35)"
+    stroke="rgba(0,0,0,0.8)"
+    strokeWidth="4"
+  />
+  <line
+    stroke="black"
+    x1={250}
+    x2={101.84674891072936}
+    y1={200}
+    y2={176.53483024396536}
+  />
+  <text
+    fill="rgba(0,0,0,0.7)"
+    style={
+      Object {
+        "fontFamily": "Roboto, sans-serif",
+      }
+    }
+    textAnchor="middle"
+    x={82.09298209882661}
+    y={173.40614094316072}
+  >
+    £10
+  </text>
+  <text
+    fill="rgba(0,0,0,0.7)"
+    style={
+      Object {
+        "fontFamily": "Roboto, sans-serif",
+      }
+    }
+    textAnchor="middle"
+    x={90}
+    y={199.99999999999997}
+  >
+    £0
+  </text>
+  <text
+    fill="rgba(0,0,0,0.7)"
+    style={
+      Object {
+        "fontFamily": "Roboto, sans-serif",
+      }
+    }
+    textAnchor="middle"
+    x={410}
+    y={200}
+  >
+    £200
+  </text>
+</svg>
+`;
